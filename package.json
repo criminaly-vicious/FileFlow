@@ -1,0 +1,49 @@
+{
+  "name": "fileflow",
+  "version": "1.0.0",
+  "description": "A modern file manager.",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "npm run build && electron .",
+    "build": "webpack --config webpack.main.config.js && webpack --config webpack.renderer.config.js",
+    "package": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "com.fileflow",
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "files": [
+      "dist/**/*",
+      "src/main/main.js",
+      "index.html"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "@types/path-browserify": "^1.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "babel-loader": "*",
+    "electron": "*",
+    "electron-builder": "*",
+    "html-webpack-plugin": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  },
+  "dependencies": {
+    "path-browserify": "^1.0.1",
+    "react": "*",
+    "react-dom": "*"
+  }
+}
