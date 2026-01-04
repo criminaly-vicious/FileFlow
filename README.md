@@ -1,12 +1,14 @@
 # FileFlow
 
-   ______ _ _      ______ _           
-  |  ____(_) |    |  ____| |          
-  | |__   _| | ___| |__  | | ___  ___ 
-  |  __| | | |/ _ \  __| | |/ _ \/ __|
-  | |    | | |  __/ |    | | (_) \__ \
-  |_|    |_|_|\___|_|    |_|\___/|___/
-                                     
+ ____         ___           ____    ___                         
+/\  _`\   __ /\_ \         /\  _`\ /\_ \                        
+\ \ \L\_\/\_\\//\ \      __\ \ \L\_\//\ \     ___   __  __  __  
+ \ \  _\/\/\ \ \ \ \   /'__`\ \  _\/ \ \ \   / __`\/\ \/\ \/\ \ 
+  \ \ \/  \ \ \ \_\ \_/\  __/\ \ \/   \_\ \_/\ \L\ \ \ \_/ \_/ \
+   \ \_\   \ \_\/\____\ \____\\ \_\   /\____\ \____/\ \___x___/'
+    \/_/    \/_/\/____/\/____/ \/_/   \/____/\/___/  \/__//__/  
+                                                                
+                                                                
 
 FileFlow is a modern, efficient file manager designed to provide an intuitive user experience for organizing, searching, and visualizing your files. It aims to integrate seamlessly with cloud storage services and offer a powerful search system.
 
